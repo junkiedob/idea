@@ -1,0 +1,12 @@
+#Всё, что будет появляться в каталоге build
+#Исключаем все папки build, но не файлы с именем build
+**/build/*
+#Все jar-файлы, кроме module2.jar
+*.jar
+!module2.jar
+#application-local.properties
+application-local.properties
+#папку .idea полностью
+#папку .idea_copy кроме файла workspace.xml —
+.idea*/*
+!.idea_copy/workspace.xml
